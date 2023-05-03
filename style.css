@@ -13,7 +13,6 @@ body {
   display: flex;
   justify-content: space-around ;
   padding: 8px;
-  border: 2px solid red;
 }
 
 .logo {
@@ -41,14 +40,26 @@ ul {
 .hero {
     display: flex;
     justify-content: space-around;
-    padding: 8px;
-    border: 2px solid red; 
+    padding: 8px; 
     margin: 100px;
 }
 .herotext{
     padding:20px;
-    border: 2px solid rgb(21, 255, 0);
     margin:130px;
+}
+.herotext button {
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    width: 150px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+
 }
 .hero h1{
     display: inline-block;
@@ -68,7 +79,6 @@ ul {
     margin-right: 100px;
     background-color: #787a76;
     width: 50%;
-    border:2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +88,6 @@ ul {
 }
 .section2 {
     display: flex;
-    border: 2px solid red;
     padding:50px 200px 200px 200px;
     background-color: white;
     flex-direction: column;
@@ -86,15 +95,12 @@ ul {
 }
 
 .section2 h1{
-    border: 2px solid red;
     text-align: center;
 }
 .rounded-images {
     display: flex;
-    border: 2px solid red;
 }
 .one-rounded {
-    border: 2px solid red;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -123,7 +129,6 @@ ul {
     display: flex;
     padding: 5%;
     padding-bottom: 0;
-    border: 2px solid red;
     font-size: 36px;
     font-weight: 0;
     color: #1F2937;
@@ -134,11 +139,9 @@ ul {
     font-weight: bold;
     font-size: 30px;
     align-self:center;
-    border: 2px solid red;
 }
 
 .section4 {
-    border: 2px solid red;  
     display: flex;
     height: 300px;
     background-color: white;
@@ -153,7 +156,6 @@ ul {
     border-radius: 20px;
     background-color: #3882F6;
     display: flex;
-    border: 2px solid red;
     justify-content: space-around;   
     align-items: center;
 }
@@ -161,7 +163,6 @@ ul {
 .call-text {
     color: white;
     padding: 30px;
-    border: 2px solid red;
     display: block;
     margin-right: -200px;
 }
