@@ -1,0 +1,95 @@
+/* this is some magical font-importing.  
+you'll learn about it later. */
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+  margin: 0;
+  background: #1F2937;
+  font-family: Besley, serif;
+}
+
+.header {
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-around ;
+  padding: 8px;
+  border: 2px solid red;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+ul {
+    font-size: 24px;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    gap: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    border: 2px solid red; 
+    margin: 100px;
+}
+.herotext{
+    padding:20px;
+    border: 2px solid rgb(21, 255, 0);
+    margin:130px;
+}
+.hero h1{
+    display: inline-block;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin:0;
+    padding:0;
+}
+.hero h2 {
+    margin:0;
+    font-size: 18px;
+    color:#E5E7EB
+}
+.hero-image {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    background-color: #787a76;
+    width: 50%;
+    border:2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-image h1{
+    font-size: 20px;
+}
+.section2 {
+    display: flex;
+    border: 2px solid red;
+    padding:50px 200px 200px 300px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section2 h1{
+    border: 2px solid red;
+    text-align: center;
+}
+.rounded-images {
+    display: flex;
+    border: 2px solid red;
+}
